@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AppBootstrap">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>AngularJS Project Bootstrap</title>
+
+    <!-- build:css css/app.min.css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- endbuild -->
+
+    <!-- build:css css/print.min.css -->
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <!-- endbuild -->
+</head>
+
+<body>
+
+<div class="container">
+    <div class="row" ng-view></div>
+</div>
+
+<!-- build:js js/app.min.js -->
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+<script src="../bower_components/jquery/dist/jquery.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<!--<script src="js/services/sample.js"></script>-->
+<!--<script src="js/filters/sample.js"></script>-->
+<!--<script src="js/directives/sample.js"></script>-->
+<script src="js/controllers/home.js"></script>
+<script src="js/app.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
